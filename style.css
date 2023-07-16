@@ -1,0 +1,55 @@
+
+
+/* Barra de navegacion */
+.navbar {
+    padding: 2rem;
+    background-color: #FFFFFF;
+  }
+ 
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Sirin Stencil', cursive;
+    font: bold;
+  }
+  /*estilos generales*/
+ 
+  h1{
+    font-size: 2.5rem;
+    font-family: 'Sirin Stencil', cursive;
+  }
+  
+  
+  .seccion-clara{
+    color: black;
+    background-color: white;
+  }
+  
+  .seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Sirin Stencil', cursive;
+  
+  }
+  
+  .seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
+  
+  
+  .seccion-texto{
+    font-size: 1.2rem;
+  }
+  
+  /*Carousel*/
+
+  .carousel{
+
+    padding: 10px 70px 20px 70px;
+
+  }
+  
+
+  
