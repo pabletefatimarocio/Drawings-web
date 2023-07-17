@@ -1,4 +1,9 @@
+body {
+    background-image: url('./images/back-2.jpg');
+    background-size:auto;
 
+  }
+  
 
 /* Barra de navegacion */
 .navbar {
@@ -10,7 +15,7 @@
   .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-    font-family: 'Sirin Stencil', cursive;
+    font-family:'Inknut Antiqua', serif;
     font: bold;
   }
   /*estilos generales*/
@@ -44,12 +49,95 @@
   }
   
   /*Carousel*/
-
-  .carousel{
-
-    padding: 10px 70px 20px 70px;
-
+  .carousel-control-prev-icon {
+    filter: invert(100%);
+    color: black;
+  }
+  
+  .carousel-control-next-icon {
+    filter: invert(100%);
+    color: black;
   }
   
 
+  .carousel{
+
+    padding: 10px 30px 20px 30px;
+
+  }
+
+  /*Cards*/
   
+  .card{
+    display:block;
+  }
+  
+  p{
+   color: rgb(92, 90, 8);
+   font-family: 'Inknut Antiqua', serif;
+   font:bold;
+   font-size: small;
+   text-align: center;
+  
+  }
+
+  /*Footer*/
+  
+  footer {
+    background-color:black;
+    min-height: 250px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+    font-family: 'Inknut Antiqua', serif;
+    color: #FFFFFF;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid  rgb(92, 90, 8);
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .navbar-brand{
+      display: none;
+    }
+  }
