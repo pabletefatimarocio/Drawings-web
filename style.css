@@ -51,6 +51,9 @@ section img
     pointer-events: none;
 }
 
+.container {
+  padding: 30px;
+}
   
 
 /* Barra de navegacion */
