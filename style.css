@@ -54,6 +54,10 @@ section img
 .container {
   padding: 30px;
 }
+
+
+
+
   
 
 /* Barra de navegacion */
@@ -135,7 +139,7 @@ section img
   /*Footer*/
   
   footer {
-    background-color:black;
+    background-color: #000000;
     min-height: 250px;
   }
   

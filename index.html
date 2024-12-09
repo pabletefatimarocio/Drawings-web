@@ -74,29 +74,37 @@
     <!-- Parallax de prueba -->
      <div>
       <section>
-        <img src="./images/parallax/bg.png" id="bg">
-        <img src="./images/parallax/dragon2.png" id="dragon2">
-        <img src="./images/parallax/castillo.png" id="castillo">
-        <img src="./images/parallax/piso.png" id="piso">
+        <img src="./images/assets/background.png" id="bg">
+        <img src="./images/assets/dragon.png" id="dragon2">
+        <img src="./images/assets/castillo-d.png" id="castillod">
+        <img src="./images/assets/castillo-i-a.png" id="castilloia">
+        <img src="./images/assets/castillo-i.png" id="castilloi">
+        <img src="./images/assets/pisotres.png" id="pisotres">
         <h2 id="text">Parallax</h2>
       </section>
      </div>
 
      <script type="text/javascript">
-      let bg = document.getElementById("bg");
+      let background = document.getElementById("bg");
       let dragon = document.getElementById("dragon2");
-      let castillo = document.getElementById("castillo");
-      let piso = document.getElementById("piso");
+      let castillod = document.getElementById("castillod");
+      let castilloi = document.getElementById("castilloi");
+      let castilloia = document.getElementById("castilloia");
+      let pisotres = document.getElementById("pisotres");
+    
+    
       let text = document.getElementById("text");
 
       window.addEventListener('scroll', function(){
           var value = window.scrollY;
           
-          bg.style.top = value * 0 + 'px';
+          background.style.top = value * 0 + 'px';
           dragon.style.left = -value * 0.5 + 'px';
-          castillo.style.top = -value * 0.15 + 'px';
-          piso.style.top = value * 0.15 + 'px';
-          text.style.top = value * 1 + 'px';
+          castillod.style.top = -value * 0.15 + 'px';
+          castilloi.style.top = -value * 0.15 + 'px';
+          castilloia.style.top = -value * 0.30 + 'px';
+          pisotres.style.top = value * 0 + 'px';
+          text.style.top = value * 0 + 'px';
 
       })
      </script>
