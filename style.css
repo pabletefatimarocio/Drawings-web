@@ -126,6 +126,7 @@ section img
   .card{
     display:block;
     transition: all 500ms ease-in-out;
+    overflow: hidden;
   }
   .card:hover{
     background-color: #000000;
