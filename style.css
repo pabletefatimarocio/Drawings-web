@@ -125,26 +125,24 @@ section img
   
   .card{
     display:block;
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
   }
   .card:hover{
     background-color: #000000;
   }
   
-  p{
+  .card p{
    color: rgb(92, 90, 8);
    font-family: 'Inknut Antiqua', serif;
    font:bold;
    font-size: small;
    text-align: center;
    padding: 3rem;
-   cursor: pointer;
-   transition: all 1s ease-in-out;
+   transition: all 500ms ease-in-out;
   }
 
-  p:hover{
-    color:rgb(92, 90, 8);
-    background-color: #000000;
+  .card p:hover{
+    color:rgb(112, 110, 28);
   }
 
   /*Footer*/
