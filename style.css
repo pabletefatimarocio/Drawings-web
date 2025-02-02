@@ -125,6 +125,11 @@ section img
   
   .card{
     display:block;
+    transition:transform 1s ease-in-out;
+  }
+  .card:hover{
+    background-color: #000000;
+    transform: ease-in-out;
   }
   
   p{
@@ -134,7 +139,14 @@ section img
    font-size: small;
    text-align: center;
    padding: 3rem;
-  
+   cursor: pointer;
+   transition:  transform 1s ease-in-out;
+  }
+
+  p:hover{
+    color:rgb(92, 90, 8);
+    background-color: #000000;
+   
   }
 
   /*Footer*/
